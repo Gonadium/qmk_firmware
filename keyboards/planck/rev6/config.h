@@ -17,7 +17,7 @@
 
 #pragma once
 
-#define DIP_SWITCH_PINS { B14, A15, A0, B9 }
+//#define DIP_SWITCH_PINS { B14, A15, A0, B9 }
 
 #define MUSIC_MAP
 #undef AUDIO_VOICES
@@ -44,7 +44,7 @@
 
 /*
  * WS2812 Underglow Matrix options
- */
+ 
 #define RGBLED_NUM 9
 #define RGB_MATRIX_LED_COUNT RGBLED_NUM
 
@@ -55,3 +55,4 @@
 #define WS2812_DMA_CHANNEL 2
 
 #define RGB_DISABLE_WHEN_USB_SUSPENDED
+*/
