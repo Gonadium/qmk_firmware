@@ -48,3 +48,7 @@
 // Most tactile encoders have detents every 4 stages
 
 #define TAPPING_TOGGLE 2
+
+#define RGBLIGHT_ANIMATIONS
+#define WS2812_DI_PIN A1
+
